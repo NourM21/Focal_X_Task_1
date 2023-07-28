@@ -1,0 +1,103 @@
+.maincontainer {
+    margin-top: 5rem;
+}
+
+.maincontainer .title{
+    width: max-content;
+    margin: 0 auto;
+    font-size: 3rem;
+    color: royalblue;
+}
+
+@media (max-width: 1024px) {
+    .maincontainer .title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .maincontainer .title {
+        font-size: 2rem;
+    }
+}
+
+.maincontainer .sec-title{
+    width: max-content;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .maincontainer .sec-title {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .maincontainer .sec-title {
+        font-size: 0.8rem;
+    }
+}
+
+.maincontainer .container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: 35px auto 15px;
+    background-color: rgba(167, 199, 231, 0.1);;
+    padding: 25px 25px;
+    border-radius: 15px;
+}
+
+.maincontainer .container-footer .info a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: royalblue;
+}
+
+@media (max-width: 1024px) {
+    .maincontainer .container-footer .info a {
+        font-size: 0.8rem;
+    }
+}
+
+.maincontainer .container-footer .info a:hover {
+    color: black;
+}
+
+.maincontainer .container-footer button{
+    background: royalblue;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+    transition: 0.3s ease-in;
+}
+
+@media (max-width: 1024px) {
+    .maincontainer .container-footer button {
+        padding: 0.8rem 1rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .maincontainer .container-footer button {
+        padding: 0.5rem 0.8rem;
+    }
+}
+
+.maincontainer .container-footer button:hover {
+    background-color: white;
+    color: royalblue;
+}
+
+@media (max-width: 1024px) {
+    .maincontainer .container-footer .info p {
+        font-size: 0.8rem;
+    }
+}

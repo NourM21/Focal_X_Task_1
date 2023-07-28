@@ -1,0 +1,73 @@
+.maincontainer .container{
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 80px;
+    color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+}
+
+@media (max-width: 768px) {
+    .maincontainer .container {
+        flex-direction: column;
+        gap: 0px;
+        margin: 80px auto 0px;
+    }
+}
+
+.maincontainer .container h2 {
+    color: royalblue;
+}
+
+.maincontainer .container.reverse{
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    .maincontainer .container.reverse {
+        flex-direction: column;
+    }
+}
+
+.maincontainer .container .imgs{
+    display: flex;
+    gap: 10px;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .maincontainer .container .imgs {
+        width: 80%;
+        margin: 0px 0px 15px;
+    }
+}
+
+.maincontainer .container .imgs img{
+    width: 80%;
+    height: 400px;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 768px) {
+    .maincontainer .container .imgs img {
+        width: 100%;
+    }
+}
+
+.maincontainer .container .info{
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .maincontainer .container .info {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.maincontainer .container .info h2{
+    padding-bottom: 1rem;
+}
